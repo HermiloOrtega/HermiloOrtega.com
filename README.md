@@ -1,86 +1,68 @@
-# Personal Website Source Code
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Introduction
-React and Bootstrap 4 based personal portfolio website template. This has been built with React, ES6+ etc. 
+## Available Scripts
 
-## Setup Development Environment
-In order to kickstart the development of the website, The very first thing to do is yo setup a react development environment. 
+In the project directory, you can run:
 
-Following tools are needed to setup a react dev environment: 
-- Node JS
-	- NoseJS Works as a node package manager behind the scene. It is recommended to download and install the latest version of Node JS from it's official site (http://nodejs.org)[http://nodejs.org]
+### `npm start`
 
-## Preparation
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You'll need to install Node.js >=v12.0+ (Recommended Version) (NPM comes along with it) and serve (a NPM package)
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-Use command line tool i.e. powershell or terminal and navigate to the project root. This is powershell in windows and terminal on mac/linux.
+### `npm test`
 
-Let's see how the setup works: 
-Use terminal and navigate to the project root.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Then run : npm run install or  yarn install
+### `npm run build`
 
-N:B: If you fall any problem from the nodejs latest version while run npm install try yarn instead.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Then run : npm run start or  yarn start
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-Now in the browser go localhost:3000
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Pages and Components Info 
+### `npm run eject`
 
-- Home (/pages/Home.js)
-- About (/pages/About.js)
-- Portfolios (/pages/Portfolios.js)
-- Resumes (/pages/Resumes.js)
-- Contact (/pages/Contact.js)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Common Components:
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Header (/components/Header.js)
-- Footer (/components/Layout.js)
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Template Features:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- ES6+
-- React JS 17+
-- Bootstrap 5+
+## Learn More
 
-## Dependencies 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Here are the dependencies list which being used in the Chester React Template:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
- 
-> "dependencies": {
->      "axios": "^0.24.0",
->      "axios-mock-adapter": "^1.20.0",
->      "bootstrap": "^5.1.3",
->      "disqus-react": "^1.1.2",
->      "fslightbox-react": "^1.6.2",
->      "markdown-to-jsx": "^7.1.3",
->      "node-sass": "^6.0.1",
->      "react": "^17.0.2",
->      "react-dom": "^17.0.2",
->      "react-feather": "^2.0.9",
->      "react-helmet": "^6.1.0",
->      "react-lineicons": "^3.0.0",
->      "react-masonry-component": "^6.3.0",
->      "react-on-screen": "^2.1.1",
->      "react-progressive-image": "^0.6.0",
->      "react-router-dom": "5.0.1",
->      "react-scripts": "4.0.3",
->      "react-slick": "^0.28.1",
->      "react-tsparticles": "^1.37.3",
->      "shave": "^2.5.10",
->      "slick-carousel": "^1.8.1"
-> }
+### Code Splitting
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-## Fonts
-By default, the template loads Nunito font from Google Web Font Services, you can change the font with the one that suits you best.
+### Analyzing the Bundle Size
 
-You will find the font code in the "scss/basic/_typography.scss
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-> @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800&display=swap');
+### Making a Progressive Web App
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

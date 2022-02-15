@@ -54,11 +54,11 @@ function Header() {
               <span>Portfolios</span>
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/blogs">
               <span>Blogs</span>
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="/contact">
               <span>Contact</span>
@@ -71,9 +71,9 @@ function Header() {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://nuclearthemes.com"
+              href="https://hermiloortega.com"
             >
-              NuclearThemes
+              Hermilo Ortega
             </a>
           </b>
         </p>
