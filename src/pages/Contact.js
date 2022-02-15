@@ -6,9 +6,9 @@ import Layout from "../components/Layout";
 import Sectiontitle from "../components/Sectiontitle";
 
 function Contact() {
-  const [phoneNumbers, setPhoneNumbers] = useState([]);
-  const [emailAddress, setEmailAddress] = useState([]);
-  const [address, setAddress] = useState([]);
+  const [phoneNumbers, setPhoneNumbers] = useState(["(236) 878 1239"]);
+  const [emailAddress, setEmailAddress] = useState(["hermilo.jh@gmail.com"]);
+  const [address, setAddress] = useState(["567 Clarke Rd, Coquitlam"]);
   const [formdata, setFormdata] = useState({
     name: "",
     email: "",
@@ -69,70 +69,40 @@ function Contact() {
   return (
     <Layout>
       <Helmet>
-        <title>Contact - Chester React Personal Portfolio Template</title>
-        <meta
-          name="description"
-          content="Chester React Personal Portfolio Template Contact Page"
-        />
+        <title>Contact - Hermilo Ortega - Software Engineer</title>
+        <meta name="description" content="Hermilo Ortega - Software Engineer" />
       </Helmet>
       <div className="mi-contact-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Contact Me" />
           <div className="row">
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="mi-contact-formwrapper">
                 <h4>Get In Touch</h4>
-                <form
-                  action="#"
-                  className="mi-form mi-contact-form"
-                  onSubmit={submitHandler}
-                >
+                <form action="#" className="mi-form mi-contact-form" onSubmit={submitHandler} >
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-name">Enter your name*</label>
-                    <input
-                      onChange={handleChange}
-                      type="text"
-                      name="name"
-                      id="contact-form-name"
-                      value={formdata.name}
+                    <input onChange={handleChange} type="text" name="name" id="contact-form-name" value={formdata.name}
                     />
                   </div>
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-email">
                       Enter your email*
                     </label>
-                    <input
-                      onChange={handleChange}
-                      type="text"
-                      name="email"
-                      id="contact-form-email"
-                      value={formdata.email}
-                    />
+                    <input onChange={handleChange} type="text" name="email" id="contact-form-email" value={formdata.email} />
                   </div>
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-subject">
                       Enter your subject*
                     </label>
-                    <input
-                      onChange={handleChange}
-                      type="text"
-                      name="subject"
-                      id="contact-form-subject"
-                      value={formdata.subject}
+                    <input onChange={handleChange} type="text" name="subject" id="contact-form-subject" value={formdata.subject}
                     />
                   </div>
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-message">
                       Enter your Message*
                     </label>
-                    <textarea
-                      onChange={handleChange}
-                      name="message"
-                      id="contact-form-message"
-                      cols="30"
-                      rows="6"
-                      value={formdata.message}
-                    ></textarea>
+                    <textarea onChange={handleChange} name="message" id="contact-form-message" cols="30" rows="6" value={formdata.message} ></textarea>
                   </div>
                   <div className="mi-form-field">
                     <button className="mi-button" type="submit">
@@ -142,8 +112,8 @@ function Contact() {
                 </form>
                 {handleAlerts()}
               </div>
-            </div>
-            <div className="col-lg-6">
+            </div> */}
+            <div className="col-lg-12">
               <div className="mi-contact-info">
                 {!phoneNumbers ? null : (
                   <div className="mi-contact-infoblock">
@@ -154,9 +124,7 @@ function Contact() {
                       <h6>Phone</h6>
                       {phoneNumbers.map((phoneNumber) => (
                         <p key={phoneNumber}>
-                          <a href={numberFormatter(phoneNumber)}>
-                            {phoneNumber}
-                          </a>
+                          <a href={`tel:${numberFormatter(phoneNumber)}`}> {phoneNumber} </a>
                         </p>
                       ))}
                     </div>
@@ -196,5 +164,4 @@ function Contact() {
     </Layout>
   );
 }
-
 export default Contact;

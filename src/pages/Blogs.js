@@ -33,23 +33,15 @@ function Blogs() {
   return (
     <Layout>
       <Helmet>
-        <title>Blogs - Chester React Personal Portfolio Template</title>
-        <meta
-          name="description"
-          content="Chester React Personal Portfolio Template Blogs Page"
-        />
+        <title>Blog - Hermilo Ortega - Software Engineer</title>
+        <meta name="description" content="Hermilo Ortega - Software Engineer"/>
       </Helmet>
       <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Recent Blogs" />
           <BlogsView blogs={currentPosts} />
           {!(posts.length > postsPerPage) ? null : (
-            <Pagination
-              className="mt-50"
-              itemsPerPage={postsPerPage}
-              totalItems={posts.length}
-              paginate={paginate}
-              currentPage={currentPage}
+            <Pagination className="mt-50" itemsPerPage={postsPerPage} totalItems={posts.length} paginate={paginate} currentPage={currentPage}
             />
           )}
         </div>

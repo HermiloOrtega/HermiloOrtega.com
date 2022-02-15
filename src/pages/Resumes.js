@@ -27,10 +27,7 @@ function Resumes() {
     <Layout>
       <Helmet>
         <title>Resume - Chester React Personal Portfolio Template</title>
-        <meta
-          name="description"
-          content="Chester React Personal Portfolio Template Resume Page"
-        />
+        <meta name="description" content="Hermilo Ortega - Software Engineer Resume" />
       </Helmet>
       <div className="mi-skills-area mi-section mi-padding-top">
         <div className="container">

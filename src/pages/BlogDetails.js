@@ -23,9 +23,9 @@ function BlogDetails(props) {
       .catch((err) => console.log(err));
   });
 
-  const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
+  const disqusShortname = "";
   const disqusConfig = {
-    url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
+    url: "https://hermiloortega.com",
     identifier: blogId,
     title: blogFile,
   };
@@ -33,19 +33,14 @@ function BlogDetails(props) {
   return (
     <Layout>
       <Helmet>
-        <title>Blog Details - Chester React Personal Portfolio Template</title>
-        <meta
-          name="description"
-          content="Chester React Personal Portfolio Template Blog Details Page"
-        />
+        <title>Blog - Hermilo Ortega - Software Engineer</title>
+        <meta name="description" content="Hermilo Ortega - Software Engineer"/>
       </Helmet>
       <div className="mi-blog-details mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Markdown>{content}</Markdown>
           <div className="mi-blog-details-comments mt-30">
-            <Disqus.DiscussionEmbed
-              shortname={disqusShortname}
-              config={disqusConfig}
+            <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig}
             />
           </div>
         </div>

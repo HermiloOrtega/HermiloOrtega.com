@@ -11,10 +11,7 @@ import Resumes from "./pages/Resumes";
 
 function App() {
   const [lightMode, setLightMode] = useState(false);
-
-  lightMode
-    ? document.body.classList.add("light")
-    : document.body.classList.remove("light");
+  lightMode ? document.body.classList.add("light") : document.body.classList.remove("light");
 
   const handleMode = () => {
     if (!lightMode) {
@@ -32,12 +29,7 @@ function App() {
         <span className="icon">
           <Icon.Sun />
         </span>
-        <button
-          className={
-            lightMode ? "light-mode-switch active" : "light-mode-switch"
-          }
-          onClick={() => handleMode()}
-        ></button>
+        <button className={ lightMode ? "light-mode-switch active" : "light-mode-switch" } onClick={() => handleMode()} ></button>
       </div>
       <Routes>
         <Route path="/" index element={<Home lightMode={lightMode} />} />

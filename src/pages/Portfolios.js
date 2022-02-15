@@ -36,11 +36,8 @@ function Portfolios() {
   return (
     <Layout>
       <Helmet>
-        <title>Portfolios - Chester React Personal Portfolio Template</title>
-        <meta
-          name="description"
-          content="Chester React Personal Portfolio Template Portfolios Page"
-        />
+        <title>Portfolio - Chester React Personal Portfolio Template</title>
+        <meta name="description" content="Hermilo Ortega - Software Engineer" />
       </Helmet>
       <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
         <div className="container">

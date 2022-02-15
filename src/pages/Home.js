@@ -17,11 +17,8 @@ function Home({ lightMode }) {
   return (
     <Layout>
       <Helmet>
-        <title>Home - Chester React Personal Portfolio Template</title>
-        <meta
-          name="description"
-          content="Chester React Personal Portfolio Template Homepage"
-        />
+        <title>Hermilo Ortega - Software Engineer</title>
+        <meta name="description" content="Hermilo Ortega - Software Engineer" />
       </Helmet>
       <div className="mi-home-area mi-padding-section">
         <Particle lightMode={lightMode}/>
