@@ -63,6 +63,10 @@
     p {
       margin-bottom: 0;
     }
+
+    .new-line{
+      white-space: pre-line;
+    }
   }
 
   @media #{$layout-notebook} {

@@ -96,12 +96,12 @@ const database = {
     {
       title: "Photography",
       icon: 'camera',
-      details: "I have been taking photos for the past 5+ Years for Mexico, USA and Canada"
+      details: "6+ Years taking pictures aroung Mexico, USA and Canada"
     },
     {
       title: "Flag Fotball",
       icon: 'flag-alt',
-      details: "One of my favourites sports nowadays, 3+ yrs of experience"
+      details: "3+ Years playing with different flag Fotball Categories in Mexico"
     },
     {
       title: "Softball",
@@ -160,6 +160,16 @@ const database = {
     //   largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
     //   url: ''
     // },
+    // {
+    //   id: 1,
+    //   title: "Corona Race",
+    //   subtitle: "",
+    //   largeImageUrl: [
+    //     "/images/portfolio-image-1-lg.jpg",
+    //     "/images/portfolio-image-4-lg2.jpg"
+    //   ],
+    //   url: 'https://github.com/cayomesquita/ciccc_202_final_project/'
+    // },
     {
       id: 1,
       title: "Suministros y Servicios del Norte",
@@ -179,10 +189,6 @@ const database = {
       title: "InLab Mexico",
       subtitle: "Development of a WordPress Website to show all the products offered to the clients for Laboratory insumes.",
       imageUrl: "/images/portfolio-image-4.jpg",
-      // largeImageUrl: [
-      //   "/images/portfolio-image-1-lg.jpg",
-      //   "/images/portfolio-image-4-lg2.jpg"
-      // ],
       imageUrl: "/images/portfolio-image-inlabmexico.png",
       url: 'https://inlabmexico.com'
     },
@@ -285,17 +291,17 @@ const database = {
         year: "Jul 2020 - Present",
         position: "Web Developer / System Administrator",
         company: "Epic Inspired",
-        details: "• Plan, organize and produce web design concepts for clients in different areas." + 
-                "• Implement new methodologies and procedures which help in the processing of information, workflow and daily jobs." + 
-                "• Implement new policies, procedures and formats for development of software and software security in the company." + 
-                "• Design and programming of Query used in the database using the best practices to performance in the best way." + 
-                "• Complete planning, analysis, design, development and execution of the system, web applications" + 
-                "• End-user support and training to answer questions or solve any issue about systems." + 
-                "• Research and review a variety of software, websites, and other interactive/new media" + 
-                "• Plan, design, write, modify, integrate and test website related code" + 
-                "• Design the flow, layout, and look of the website or application" + 
-                "• Make decisions on what is needed for the hardware and software" + 
-                "• Prepare wireframes, design mock-ups and storyboards to show others how the website will look throughout the development process, and get approval" + 
+        details: "• Plan, organize and produce web design concepts for clients in different areas. \n " + 
+                "• Implement new methodologies and procedures which help in the processing of information, workflow and daily jobs. \n " + 
+                "• Implement new policies, procedures and formats for development of software and software security in the company. \n " + 
+                "• Design and programming of Query used in the database using the best practices to performance in the best way. \n " + 
+                "• Complete planning, analysis, design, development and execution of the system, web applications. \n " + 
+                "• End-user support and training to answer questions or solve any issue about systems. \n " + 
+                "• Research and review a variety of software, websites, and other interactive/new media. \n " + 
+                "• Plan, design, write, modify, integrate and test website related code. \n " + 
+                "• Design the flow, layout, and look of the website or application. \n " + 
+                "• Make decisions on what is needed for the hardware and software. \n " + 
+                "• Prepare wireframes, design mock-ups and storyboards to show others how the website will look throughout the development process, and get approval. \n " + 
                 "• Communicate the decisions made about how the website will look and work"
       },
       {
@@ -310,8 +316,8 @@ const database = {
         year: "Mar 2019 - Jul 2020 · 1 yr 5 mos",
         position: "Team Manager",
         company: "Spanish Banks East Concession",
-        details: "• Improve the operations time with the implementation of new methodologies in the front desk, kitchen and storage, increase the productivity of employees and teamwork, reducing time lost and disorganization." + 
-                "• Implemented new methodologies with the management of the food, beverages and products." + 
+        details: "• Improve the operations time with the implementation of new methodologies in the front desk, kitchen and storage, increase the productivity of employees and teamwork, reducing time lost and disorganization. \n " + 
+                "• Implemented new methodologies with the management of the food, beverages and products. \n " + 
                 "• Attention to customers and suppliers to answer questions and solve any complaints."
       },
       {
@@ -319,20 +325,20 @@ const database = {
         year: "Aug 2019 - Dec 2019 · 5 mos",
         position: "Full Stack Software Developer",
         company: "10 STAR",
-        details: "• Improve the management and control of contracts, events and budgets of the company developing a high-quality internal web application implementing new frameworks and methodologies in the process." + 
-        "• Complete planning, analysis, design, development and execution of the system." + 
-        "• Design and programming of Query used in the database using the best practices."
+        details: "• Improve the management and control of contracts, events and budgets of the company developing a high-quality internal web application implementing new frameworks and methodologies in the process. \n " + 
+                "• Complete planning, analysis, design, development and execution of the system." + 
+                "• Design and programming of Query used in the database using the best practices."
       },
       {
         id: 5,
         year: "Jun 2013 - Dec 2018 · 5 yrs 7 mos",
         position: "Senior Software Engineer",
         company: "Altos Hornos de Mexico S.A.B. de C.V",
-        details: "• Reduced the time of operations, enforce and money lost of different departments of the company developing more than 10 high-quality and reliable internal software in different platforms. " + 
-                "• Improved the performance of 10 additional internal software previously developed by other developers, implementing new methodologies and algorithms which help in the processing of the information." + 
-                "• Design and programming of Query used in the database using the best practices." + 
-                "• Complete planning, analysis, design, development and execution of the system." + 
-                "• Creation and coordination of reports, policies, formats, system manuals, and meetings. " + 
+        details: "• Reduced the time of operations, enforce and money lost of different departments of the company developing more than 10 high-quality and reliable internal software in different platforms.  \n " + 
+                "• Improved the performance of 10 additional internal software previously developed by other developers, implementing new methodologies and algorithms which help in the processing of the information. \n " + 
+                "• Design and programming of Query used in the database using the best practices. \n " + 
+                "• Complete planning, analysis, design, development and execution of the system. \n " + 
+                "• Creation and coordination of reports, policies, formats, system manuals, and meetings.  \n " + 
                 "• End-user support and training to answer questions or solve any issue about systems."
       },
       {
@@ -340,7 +346,7 @@ const database = {
         year: "Jun 2011 - Dec 2011 · 7 mos",
         position: "Software Engineer Intern",
         company: "Altos Hornos de Mexico S.A.B. de C.V",
-        details: "• Helped create and improve efficient and reliable internal website to show the agreements and benefits to employees with city businesses" + 
+        details: "• Helped create and improve efficient and reliable internal website to show the agreements and benefits to employees with city businesses. \n " + 
                 "• End-user support and training to answer questions or solve any issue about systems."
       }
     ],
@@ -371,6 +377,59 @@ const database = {
         year: "2009 - 2013",
         graduation: "Bachelor's Degree, Computer Science",
         university: "Instituto Tecnológico Superior de Monclova 'Ejército Mexicano'",
+        details: ""
+      }
+    ],
+    certificationExperience: [
+      {
+        id: 1,
+        year: "Oracle",
+        title: "Oracle Certified Professional, Java SE 6 Programmer",
+        url: "https://www.credly.com/badges/c6944770-9dd2-410b-a15e-3333a3b10abf",
+        details: "Sep 2013"
+      },
+      {
+        id: 2,
+        year: "Microsoft",
+        title: "Microsoft Certified: Azure Fundamentals",
+        url: "https://www.credly.com/earner/earned/badge/bd835ebc-6b5b-4090-84cb-099e4c1f000d",
+        details: "Sep 2021"
+      },
+      {
+        id: 3,
+        year: "World Education Services",
+        title: "Verified International Academic Qualifications",
+        url: "https://www.credly.com/earner/earned/badge/b435af3f-cec3-42d9-96b6-6877d920b47f",
+        details: "Nov 2020"
+      },
+      {
+        id: 5,
+        year: "EF Education First",
+        title: "EF SET English Certificate 66/100 (C1 Advanced)",
+        url: "https://www.efset.org/cert/zRTfz1",
+        details: "Nov 2020"
+      },
+      {
+        id: 4,
+        year: "Microsoft",
+        title: "Software Testing Fundamentals",
+        url: "",
+        details: "Jan 2019"
+      }
+    ],
+    honorExperience: [
+      {
+        id: 1,
+        year: "Dec 2018",
+        title: "Honorable Mention Award",
+        url: "IEU Universidad",
+        details: ""
+      },
+      {
+        id: 2,
+        year: "Jan 2017",
+        title: "Honorable Mention Award",
+        url: "Universidad Autonoma del Noreste",
         details: ""
       }
     ]
