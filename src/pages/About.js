@@ -150,7 +150,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="mi-service-area mi-section mi-padding-top mi-padding-bottom">
+      <div className="mi-service-area mi-section mi-padding-top">
         <div className="container">
           <Sectiontitle title="Hobies" />
           <div className="mi-service-wrapper">
@@ -164,7 +164,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="mi-review-area mi-section mi-padding-top">
+      <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Reviews" />
           <div className="row justify-content-center">
