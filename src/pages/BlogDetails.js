@@ -33,8 +33,8 @@ function BlogDetails(props) {
   return (
     <Layout>
       <Helmet>
-        <title>Blog - Hermilo Ortega - Software Engineer</title>
-        <meta name="description" content="Hermilo Ortega - Software Engineer"/>
+        <title>Hermilo Ortega - My Blog</title>
+        <meta name="description" content="Hermilo Ortega - Software Engineer bases on Vancouver BC - My Blog"/>
       </Helmet>
       <div className="mi-blog-details mi-section mi-padding-top mi-padding-bottom">
         <div className="container">

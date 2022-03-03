@@ -30,8 +30,8 @@ function Resumes() {
   return (
     <Layout>
       <Helmet>
-        <title>Resume - Hermilo Ortega - Software Engineer</title>
-        <meta name="description" content="Resume - Hermilo Ortega - Software Engineer" />
+        <title>Hermilo Ortega - Resume</title>
+        <meta name="description" content="Hermilo Ortega - Software Engineer bases on Vancouver BC - Resume"/>
       </Helmet>
       <div className="mi-skills-area mi-section mi-padding-top">
         <div className="container">

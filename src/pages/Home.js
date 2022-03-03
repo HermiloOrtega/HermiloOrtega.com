@@ -18,7 +18,7 @@ function Home({ lightMode }) {
     <Layout>
       <Helmet>
         <title>Hermilo Ortega - Software Engineer</title>
-        <meta name="description" content="Hermilo Ortega - Software Engineer" />
+        <meta name="description" content="Hermilo Ortega - Software Engineer bases on Vancouver BC"/>
       </Helmet>
       <div className="mi-home-area mi-padding-section">
         <Particle lightMode={lightMode}/>

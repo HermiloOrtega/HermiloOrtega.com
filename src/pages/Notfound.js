@@ -7,8 +7,8 @@ function Notfound() {
   return (
     <Layout>
       <Helmet>
-        <title>404 - Hermilo Ortega - Software Engineer</title>
-        <meta name="description" content="Hermilo Ortega - Software Engineer - Not Found Page"/>
+        <title>Hermilo Ortega - Page Not Found</title>
+        <meta name="description" content="Hermilo Ortega - Software Engineer bases on Vancouver BC - Page Not Found"/>
       </Helmet>
       <div className="mi-about-area mi-section">
         <div className="container">

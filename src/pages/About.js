@@ -62,8 +62,8 @@ function About() {
   return (
     <Layout>
       <Helmet>
-        <title>About - Hermilo Ortega - Software Engineer</title>
-        <meta name="description" content="Hi! My Name is Hermilo Ortega and I'm a Software Engineer based on Vancouvr BC."/>
+        <title>Hermilo Ortega - About Me</title>
+        <meta name="description" content="Hi! My Name is Hermilo Ortega and I'm a Software Engineer based on Vancouver BC."/>
       </Helmet>
       <div className="mi-about-area mi-section mi-padding-top">
         <div className="container">
