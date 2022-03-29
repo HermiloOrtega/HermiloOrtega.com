@@ -14,13 +14,8 @@ const database = {
     socialLinks: {
       github: 'https://github.com/HermiloOrtega',
       facebook: 'https://www.facebook.com/josehermilo1',
-      // twitter: 'https://twitter.com/Hermilo_O_Mtz',
       linkedin: 'https://www.linkedin.com/in/hermiloortega/',
       instagram: 'https://www.instagram.com/hermilomtz/'
-      // ,
-      // pinterest: 'https://www.pinterest.es/hermilojh',
-      // behance: 'https://www.behance.net/HermiloMartinez',
-      // dribbble: ''
     },
     brandImage: '/images/Hermilo-Ortega.png',
     aboutImage: '/images/about-image.png',
@@ -82,15 +77,6 @@ const database = {
         designation: 'E-Commerce Develiopment (LineUp Boutique and Globos Toys Ericka)'
       }
     }
-    // ,
-    // {
-    //   id: 4,
-    //   content: "working with Hermilo has been a really good experience and I'm more than happy that he could develop my Web Application for my Building Management Business, I'm more than satisfy that he helpe me with this project and also to keep my existing website updated and running.",
-    //   author: {
-    //     name: 'Fernando Aguilar',
-    //     designation: 'Web Application Development (Building Management)'
-    //   }
-    // }
   ],
   hobies: [
     {
@@ -226,63 +212,64 @@ const database = {
       subtitle: "Management, Maintenance and Development of WordPress Pages",
       imageUrl: "/images/portfolio-image-fasedem.png",
       url: 'https://fasedem.com'
-    },
-    {
-      id: 9,
-      title: "B&O - Integration",
-      subtitle: "",
-      imageUrl: "/images/portfolio-image-BEOIntegration.png",
-      url: 'https://integration.bang-olufsen.com'
-    },
-    {
-      id: 10,
-      title: "BeoCanada",
-      subtitle: "",
-      imageUrl: "/images/portfolio-image-BEOVancouver.png",
-      url: 'https://beocanada.ca'
-    },
-    {
-      id: 11,
-      title: "Prime One Living",
-      subtitle: "",
-      imageUrl: "/images/portfolio-image-PrimeOneLiving.png",
-      url: 'https://primeoneliving.com'
-    },
-    {
-      id: 12,
-      title: "Burquitlam TownHomes",
-      subtitle: "",
-      imageUrl: "/images/portfolio-image-BurquitlamTownhomes.png",
-      url: 'https://burquitlamtownhomes.com'
-    },
-    {
-      id: 13,
-      title: "Evermark Real Estate - Projects",
-      subtitle: "",
-      imageUrl: "/images/portfolio-image-ProjectsEvermarkRealEstateGroup.png",
-      url: 'https://projects.evermarkrealestate.ca'
-    },
-    {
-      id: 14,
-      title: "Private Pension Partners",
-      subtitle: "",
-      imageUrl: "/images/portfolio-image-PrivatePensionPartners.png",
-      url: 'https://privatepensionpartners.com'
-    },
-    {
-      id: 15,
-      title: "Private Pension Partners - Invest",
-      subtitle: "",
-      imageUrl: "/images/portfolio-image-InvestPrivatePensionPartners.png",
-      url: 'https://invest.privatepensionpartners.com'
-    },
-    {
-      id: 16,
-      title: "Empress Chilliwack",
-      subtitle: "",
-      imageUrl: "/images/portfolio-image-EmpressChilliwack.png",
-      url: 'https://empresschilliwack.com'
     }
+    // ,
+    // {
+    //   id: 9,
+    //   title: "B&O - Integration",
+    //   subtitle: "",
+    //   imageUrl: "/images/portfolio-image-BEOIntegration.png",
+    //   url: 'https://integration.bang-olufsen.com'
+    // },
+    // {
+    //   id: 10,
+    //   title: "BeoCanada",
+    //   subtitle: "",
+    //   imageUrl: "/images/portfolio-image-BEOVancouver.png",
+    //   url: 'https://beocanada.ca'
+    // },
+    // {
+    //   id: 11,
+    //   title: "Prime One Living",
+    //   subtitle: "",
+    //   imageUrl: "/images/portfolio-image-PrimeOneLiving.png",
+    //   url: 'https://primeoneliving.com'
+    // },
+    // {
+    //   id: 12,
+    //   title: "Burquitlam TownHomes",
+    //   subtitle: "",
+    //   imageUrl: "/images/portfolio-image-BurquitlamTownhomes.png",
+    //   url: 'https://burquitlamtownhomes.com'
+    // },
+    // {
+    //   id: 13,
+    //   title: "Evermark Real Estate - Projects",
+    //   subtitle: "",
+    //   imageUrl: "/images/portfolio-image-ProjectsEvermarkRealEstateGroup.png",
+    //   url: 'https://projects.evermarkrealestate.ca'
+    // },
+    // {
+    //   id: 14,
+    //   title: "Private Pension Partners",
+    //   subtitle: "",
+    //   imageUrl: "/images/portfolio-image-PrivatePensionPartners.png",
+    //   url: 'https://privatepensionpartners.com'
+    // },
+    // {
+    //   id: 15,
+    //   title: "Private Pension Partners - Invest",
+    //   subtitle: "",
+    //   imageUrl: "/images/portfolio-image-InvestPrivatePensionPartners.png",
+    //   url: 'https://invest.privatepensionpartners.com'
+    // },
+    // {
+    //   id: 16,
+    //   title: "Empress Chilliwack",
+    //   subtitle: "",
+    //   imageUrl: "/images/portfolio-image-EmpressChilliwack.png",
+    //   url: 'https://empresschilliwack.com'
+    // }
   ],
   experience: {
     workingExperience: [
@@ -291,59 +278,54 @@ const database = {
         year: "Jul 2020 - Present",
         position: "Web Developer / System Administrator",
         company: "Epic Inspired",
-        details: "• Plan, organize and produce web design concepts for clients in different areas. \n " + 
-                "• Implement new methodologies and procedures which help in the processing of information, workflow and daily jobs. \n " + 
-                "• Implement new policies, procedures and formats for development of software and software security in the company. \n " + 
-                "• Design and programming of Query used in the database using the best practices to performance in the best way. \n " + 
-                "• Complete planning, analysis, design, development and execution of the system, web applications. \n " + 
-                "• End-user support and training to answer questions or solve any issue about systems. \n " + 
-                "• Research and review a variety of software, websites, and other interactive/new media. \n " + 
-                "• Plan, design, write, modify, integrate and test website related code. \n " + 
-                "• Design the flow, layout, and look of the website or application. \n " + 
-                "• Make decisions on what is needed for the hardware and software. \n " + 
-                "• Prepare wireframes, design mock-ups and storyboards to show others how the website will look throughout the development process, and get approval. \n " + 
-                "• Communicate the decisions made about how the website will look and work"
+        details:  "•	Complete planning, analysis, design, development, QA and launch of computer systems, web applications, system architecture as well as web development, with the use of LAMP Stack and Microsoft Framework. \n " + 
+                  "•	Create, implement, and improve methodologies, plans and strategies for increased security and preventing possible breaches in company files, websites, web apps and software’s. \n " + 
+                  "•	Server-side maintenance and management for on-site and cloud services. \n " + 
+                  "•	Secure file management, backup systems, data management and document handling. \n " + 
+                  "•	Technical support and troubleshooting as required following company protocols. \n " + 
+                  "•	Lead and coordinate teams with different skills and experience to develop websites."
       },
       {
         id: 2,
         year: "Jan 2020 - Present",
         position: "Full Stack Software Developer",
         company: "Jucod IT Company · Self-employed",
-        details: "• Help companies to reduce time, costs and effort by automating processes through high-performance web technologies and implementing advanced methodologies to manage business according to their needs."
+        details:  "•	Help companies to reduce time, cost, and effort by automating processes through high-performance web technologies and implementing advanced methodologies to manage business according to their needs using primarily the Microsoft Framework and Technologies as well as the LAMP Stack."
       },
       {
         id: 3,
-        year: "Mar 2019 - Jul 2020 · 1 yr 5 mos",
+        year: "Mar 2019 - Jul 2020",
         position: "Team Manager",
         company: "Spanish Banks East Concession",
-        details: "• Improve the operations time with the implementation of new methodologies in the front desk, kitchen and storage, increase the productivity of employees and teamwork, reducing time lost and disorganization. \n " + 
-                "• Implemented new methodologies with the management of the food, beverages and products. \n " + 
-                "• Attention to customers and suppliers to answer questions and solve any complaints."
+        details:  "•	Improve the operations time with the implementation of new methodologies in the front desk, kitchen, and storage, increasing the productivity of employees and teamwork, reducing time lost and disorganization. \n " + 
+                  "•	Attention to customers and suppliers to answer questions and solve any questions or complaints. \n " + 
+                  "•	Hiring and training new and existing staff to teach procedures and methodologies."
       },
       {
         id: 4,
-        year: "Aug 2019 - Dec 2019 · 5 mos",
+        year: "Aug 2019 - Dec 2019",
         position: "Full Stack Software Developer",
         company: "10 STAR",
-        details: "• Improve the management and control of contracts, events and budgets of the company developing a high-quality internal web application implementing new frameworks and methodologies in the process. \n " + 
-                "• Complete planning, analysis, design, development and execution of the system." + 
-                "• Design and programming of Query used in the database using the best practices."
+        details:  "•	Improve the management and control of contracts, events, and budgets of the company by developing a high-quality internal web application using a LAMP Stack. \n " + 
+                  "•	Complete planning, analysis, design, development, and execution of the web application. \n " + 
+                  "•	Conduct analyses and oversee administrative operations related to budgeting, contracting and project planning and management processes. \n " + 
+                  "•	Assemble data and prepare periodic and special reports, manuals, and correspondence."
       },
       {
         id: 5,
-        year: "Jun 2013 - Dec 2018 · 5 yrs 7 mos",
+        year: "Jun 2013 - Dec 2018",
         position: "Senior Software Engineer",
         company: "Altos Hornos de Mexico S.A.B. de C.V",
-        details: "• Reduced the time of operations, enforce and money lost of different departments of the company developing more than 10 high-quality and reliable internal software in different platforms.  \n " + 
-                "• Improved the performance of 10 additional internal software previously developed by other developers, implementing new methodologies and algorithms which help in the processing of the information. \n " + 
-                "• Design and programming of Query used in the database using the best practices. \n " + 
-                "• Complete planning, analysis, design, development and execution of the system. \n " + 
-                "• Creation and coordination of reports, policies, formats, system manuals, and meetings.  \n " + 
-                "• End-user support and training to answer questions or solve any issue about systems."
+        details:  "•	Reduced the time of operations, enforcement and money lost in different departments of the company by developing more than 10 high-quality and reliable internal software and web applications using Microsoft Frameworks such as C#, ASP, .Net Core, as well as LAMP Stack.  \n " + 
+                  "•	Improved the performance of 10 additional internal software previously developed by other developers, implementing new methodologies and algorithms which help in the processing of the information. \n " + 
+                  "•	Design and programming of queries in SQL Server using the best practices. \n " + 
+                  "•	Complete planning, analysis, design, development, QA and launch of Web and Windows Applications. \n " + 
+                  "•	Creation and coordination of reports, policies, formats, system manuals, and meetings.  \n " + 
+                  "•	End-user support and training to answer questions or solve any issue about systems."
       },
       {
         id: 6,
-        year: "Jun 2011 - Dec 2011 · 7 mos",
+        year: "Jun 2011 - Dec 2011",
         position: "Software Engineer Intern",
         company: "Altos Hornos de Mexico S.A.B. de C.V",
         details: "• Helped create and improve efficient and reliable internal website to show the agreements and benefits to employees with city businesses. \n " + 

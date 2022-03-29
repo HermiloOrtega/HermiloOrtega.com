@@ -68,19 +68,18 @@ function Resumes() {
           
           <div className="mt-30 mi-padding-bottom"></div>
           
-          <Smalltitle title="Licenses & certifications" icon="diploma" />
-          <div className="mi-resume-wrapper">
-            {certificationExperience.map((certificationExp) => (
-              <Resume key={certificationExp.id} resumeData={certificationExp} />
-            ))}
-          </div>
-
-          <div className="mt-30 mi-padding-bottom"></div>
-          
           <Smalltitle title="Honors & awards" icon="diploma" />
           <div className="mi-resume-wrapper">
             {honorExperience.map((honorExp) => (
               <Resume key={honorExp.id} resumeData={honorExp} />
+            ))}
+          </div>
+          <div className="mt-30 mi-padding-bottom"></div>
+          
+          <Smalltitle title="Licenses & certifications" icon="diploma" />
+          <div className="mi-resume-wrapper">
+            {certificationExperience.map((certificationExp) => (
+              <Resume key={certificationExp.id} resumeData={certificationExp} />
             ))}
           </div>
         </div>
