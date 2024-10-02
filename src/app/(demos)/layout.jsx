@@ -1,39 +1,23 @@
-import { Logo } from "@/components/utils";
-import Link from "next/link";
+import BackToTop from "./_components/BackToTop";
+import Footer from "./_components/Footer";
+import Header from "./_components/Header";
 
-export default function DemosLayout({ children }) {
+export default function Demo2Layout({ children }) {
 	return (
-		<div className="previewpage bg-grey-darken">
-			<header className="header relative z-50 border-b border-white border-opacity-10">
-				<div className="container mx-auto">
-					<div className="header-inner flex items-center justify-between py-3">
-						<Logo url="/" />
-						<div className="header-button hidden lg:block">
-							Hermilo Ortega Link
-							<Link
-								href="https://themeforest.net/item/bieber-react-personal-portfolio-template/39171447"
-								className="btn"
-							>
-								<span>Buy Now</span>
-							</Link>
-						</div>
-					</div>
+		<div className="wrapper relative min-h-screen w-full bg-grey">
+			<Header />
+			<main className="page-content relative bg-grey bg-opacity-95">
+				<div className="bglines fixed left-0 top-0 z-20 flex h-screen w-full justify-around">
+					<span className="border-r border-white border-opacity-5"></span>
+					<span className="border-r border-white border-opacity-5"></span>
+					<span className="border-r border-white border-opacity-5"></span>
+					<span className="border-r border-white border-opacity-5"></span>
+					<span className="border-r border-white border-opacity-5"></span>
 				</div>
-			</header>
-			<main className="previewmain bg-grey">{children}</main>
-			<footer className="footer bg-grey-darken">
-				<div className="contianer mx-auto">
-					<p className="mb-0 py-4 text-center">
-						&copy; {new Date().getFullYear()}, All right reserved
-						<Link
-							href="/"
-							className="pl-1.5 font-medium text-heading no-underline hover:text-primary"
-						>
-							NuclearThemes
-						</Link>
-					</p>
-				</div>
-			</footer>
+				<div className="sitedata relative z-30 min-h-screen">{children}</div>
+			</main>
+			<Footer />
+			<BackToTop />
 		</div>
 	);
 }
