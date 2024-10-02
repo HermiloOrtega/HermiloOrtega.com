@@ -28,7 +28,7 @@ export default function PostDetailsPage({ params: { slug } }) {
 					},
 					{
 						name: "Blogs",
-						link: "/demo3/posts/1",
+						link: "/posts/1",
 					},
 					{
 						name: postData.title,

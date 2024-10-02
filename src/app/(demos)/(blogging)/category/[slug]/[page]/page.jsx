@@ -32,7 +32,7 @@ export default function PostsPage({ params }) {
 					},
 					{
 						name: "Blogs",
-						link: "/demo3/posts/1",
+						link: "/posts/1",
 					},
 					{
 						name: slug,
@@ -49,7 +49,7 @@ export default function PostsPage({ params }) {
 							<div className="flex gap-3 pt-10 text-center">
 								{page !== "1" && (
 									<Link
-										href={`/demo3/category/${slug}/${String(
+										href={`/category/${slug}/${String(
 											parseInt(page) - 1
 										)}`}
 										className="btn btn-small"
@@ -59,7 +59,7 @@ export default function PostsPage({ params }) {
 								)}
 								{hasMore && (
 									<Link
-										href={`/demo3/category/${slug}/${String(
+										href={`/category/${slug}/${String(
 											parseInt(page) + 1
 										)}`}
 										className="btn btn-small"

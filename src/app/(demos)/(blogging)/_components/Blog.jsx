@@ -8,7 +8,7 @@ const Blog = ({ post: { title, date, thumb, category, slug } }) => {
 		<article className="blog card p-4 md:p-5">
 			<div className="blog-top relative mb-4">
 				<Link
-					href={`/demo3/postdetails/${slug}`}
+					href={`/postdetails/${slug}`}
 					className="fiximage hover-scale block"
 					title={title}
 				>
@@ -42,7 +42,7 @@ const Blog = ({ post: { title, date, thumb, category, slug } }) => {
 			</div>
 			<h5 className="mb-0">
 				<Link
-					href={`/demo3/postdetails/${slug}`}
+					href={`/postdetails/${slug}`}
 					className=" block overflow-hidden overflow-ellipsis whitespace-nowrap transition-colors duration-500 hover:text-primary"
 					title={title}
 				>
@@ -53,7 +53,7 @@ const Blog = ({ post: { title, date, thumb, category, slug } }) => {
 				{category.map((cat, i) => (
 					<span key={i} className="after:content-[','] last:after:hidden">
 						<Link
-							href={`/demo3/category/${createSlug(cat)}/1`}
+							href={`/category/${createSlug(cat)}/1`}
 							className=" hover:text-primary"
 						>
 							{cat}

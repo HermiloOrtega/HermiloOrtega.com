@@ -24,7 +24,7 @@ export default function PostsPage({ params }) {
 				paths={[
 					{
 						name: "Home",
-						link: "/demo3/",
+						link: "/",
 					},
 					{
 						name: "Blogs",
@@ -41,7 +41,7 @@ export default function PostsPage({ params }) {
 							<div className="flex gap-3 pt-10 text-center">
 								{page !== "1" && (
 									<Link
-										href={`/demo3/posts/${String(parseInt(page) - 1)}`}
+										href={`/posts/${String(parseInt(page) - 1)}`}
 										className="btn btn-small"
 									>
 										<span>Prev</span>
@@ -49,7 +49,7 @@ export default function PostsPage({ params }) {
 								)}
 								{hasMore && (
 									<Link
-										href={`/demo3/posts/${String(parseInt(page) + 1)}`}
+										href={`/posts/${String(parseInt(page) + 1)}`}
 										className="btn btn-small"
 									>
 										<span>Next</span>

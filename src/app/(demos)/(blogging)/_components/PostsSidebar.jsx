@@ -23,7 +23,7 @@ export default function PostsSidebar({ categories, recentPosts }) {
 					{categories.map((category) => (
 						<li key={category.name}>
 							<Link
-								href={`/demo3/category/${createSlug(category.name)}/1`}
+								href={`/category/${createSlug(category.name)}/1`}
 								className="clearfix hover:text-primary"
 							>
 								{category.name}
@@ -49,7 +49,7 @@ export default function PostsSidebar({ categories, recentPosts }) {
 						<li key={index} className="mb-4 last:mb-0">
 							<p className="mb-0">
 								<Link
-									href={`/demo3/postdetails/${post.slug}`}
+									href={`/postdetails/${post.slug}`}
 									className="text-heading no-underline hover:text-primary hover:underline"
 								>
 									{post.title}{" "}

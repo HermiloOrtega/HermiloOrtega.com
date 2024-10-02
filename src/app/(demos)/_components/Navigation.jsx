@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 const Navigation = () => {
 	const pathname = usePathname();
-	const checkroute = pathname === "/demo3";
+	const checkroute = pathname === "/";
 
 	return (
 		<nav className="flex-grow px-5 text-center">
@@ -12,7 +12,7 @@ const Navigation = () => {
 				<li className="inline-block align-middle">
 					{!checkroute ? (
 						<Link
-							href="/demo3"
+							href="/"
 							className="group relative inline-block cursor-pointer py-6 text-sm font-medium uppercase tracking-wider text-heading before:text-primary"
 						>
 							Home
@@ -36,7 +36,7 @@ const Navigation = () => {
 				<li className="inline-block align-middle">
 					{!checkroute ? (
 						<Link
-							href="/demo3"
+							href="/"
 							className="group relative inline-block cursor-pointer py-6 text-sm font-medium uppercase tracking-wider text-heading before:text-primary"
 						>
 							About
@@ -60,7 +60,7 @@ const Navigation = () => {
 				<li className="inline-block align-middle">
 					{!checkroute ? (
 						<Link
-							href="/demo3"
+							href="/"
 							className="group relative inline-block cursor-pointer py-6 text-sm font-medium uppercase tracking-wider text-heading before:text-primary"
 						>
 							Resume
@@ -84,7 +84,7 @@ const Navigation = () => {
 				<li className="inline-block align-middle">
 					{!checkroute ? (
 						<Link
-							href="/demo3"
+							href="/"
 							className="group relative inline-block cursor-pointer py-6 text-sm font-medium uppercase tracking-wider text-heading before:text-primary"
 						>
 							Works
@@ -107,7 +107,7 @@ const Navigation = () => {
 				</li>
 				<li className="inline-block align-middle">
 					<Link
-						href="/demo3/posts/1"
+						href="/posts/1"
 						className="group relative inline-block cursor-pointer py-6 text-sm font-medium uppercase tracking-wider text-heading before:text-primary"
 					>
 						Blog
@@ -117,7 +117,7 @@ const Navigation = () => {
 				<li className="inline-block align-middle">
 					{!checkroute ? (
 						<Link
-							href="/demo3"
+							href="/"
 							className="group relative inline-block cursor-pointer py-6 text-sm font-medium uppercase tracking-wider text-heading before:text-primary"
 						>
 							Contact
