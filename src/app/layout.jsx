@@ -6,11 +6,10 @@ import "../styles/globals.scss";
 
 export const metadata = {
 	title: {
-		template: "%s | Bieber",
-		default: "Bieber",
+		template: "%s | Hermilo Ortega",
+		default: "Hermilo Ortega",
 	},
-	description:
-		"Bieber - is a creative personal portfolio React template build with NextJS and Tailwindcss.",
+	description:"Hermilo Ortega is a personal portfolio React template build with NextJS and Tailwindcss.",
 	keywords: "React Template, Portfolio Template",
 	author: "Nuclear Themes",
 };
@@ -27,4 +26,3 @@ export default function RootLayout({ children }) {
 		</html>
 	);
 }
-

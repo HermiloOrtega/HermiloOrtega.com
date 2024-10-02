@@ -8,9 +8,9 @@ export default function Herosection() {
 			<div className="herosection-inner flex min-h-[50vh] items-center bg-grey-darken bg-opacity-90">
 				<div className="container mx-auto">
 					<div className="herosection-content py-20 text-center">
-						<h1 className="text-primary">Bieber - React Personal Portfolio Template</h1>
+						<h1 className="text-primary">Hermilo Ortega - React Personal Portfolio Template</h1>
 						<p className="lead">
-							Bieber is a creative personal portfolio React template build with NextJS
+							Hermilo Ortega is a creative personal portfolio React template build with NextJS
 							and TailwindCSS.
 						</p>
 						<ScrollLink
